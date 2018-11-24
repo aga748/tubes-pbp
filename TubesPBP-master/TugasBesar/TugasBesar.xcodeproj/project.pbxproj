@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51F8CFC221A7BCBB00EEB0BA /* TambahKomik.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8CFC121A7BCBB00EEB0BA /* TambahKomik.swift */; };
+		51F8CFC621A7BD2600EEB0BA /* EditKomik.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8CFC521A7BD2600EEB0BA /* EditKomik.swift */; };
+		51F8CFCB21A7BF1500EEB0BA /* DetilKomikAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8CFCA21A7BF1500EEB0BA /* DetilKomikAdmin.swift */; };
+		51F8CFCD21A7BF3900EEB0BA /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8CFCC21A7BF3900EEB0BA /* Login.swift */; };
+		51F8CFCF21A7BF5400EEB0BA /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8CFCE21A7BF5400EEB0BA /* Register.swift */; };
+		51F8CFD121A7BF7400EEB0BA /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8CFD021A7BF7400EEB0BA /* Profile.swift */; };
+		51F8CFD321A7BF8C00EEB0BA /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8CFD221A7BF8C00EEB0BA /* EditProfile.swift */; };
+		51F8CFD521A7BFAA00EEB0BA /* DetilKomikUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8CFD421A7BFAA00EEB0BA /* DetilKomikUser.swift */; };
+		51F8CFD921A7C01100EEB0BA /* ListKomikUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8CFD821A7C01100EEB0BA /* ListKomikUser.swift */; };
+		51F8CFDD21A7ECD600EEB0BA /* ListKomikAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8CFDC21A7ECD600EEB0BA /* ListKomikAdmin.swift */; };
+		598A45C021A277D600F8F5F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A45BF21A277D600F8F5F1 /* AppDelegate.swift */; };
+		598A45C221A277D600F8F5F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A45C121A277D600F8F5F1 /* ViewController.swift */; };
+		598A45C521A277D600F8F5F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598A45C321A277D600F8F5F1 /* Main.storyboard */; };
+		598A45C721A277D900F8F5F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598A45C621A277D900F8F5F1 /* Assets.xcassets */; };
+		598A45CA21A277D900F8F5F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598A45C821A277D900F8F5F1 /* LaunchScreen.storyboard */; };
+		6D0535068530831E3D39DAB3 /* Pods_TugasBesar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D90779A7B6B9D40B3A661C /* Pods_TugasBesar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15D90779A7B6B9D40B3A661C /* Pods_TugasBesar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TugasBesar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F8CFC121A7BCBB00EEB0BA /* TambahKomik.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TambahKomik.swift; sourceTree = "<group>"; };
+		51F8CFC521A7BD2600EEB0BA /* EditKomik.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditKomik.swift; sourceTree = "<group>"; };
+		51F8CFCA21A7BF1500EEB0BA /* DetilKomikAdmin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetilKomikAdmin.swift; sourceTree = "<group>"; };
+		51F8CFCC21A7BF3900EEB0BA /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		51F8CFCE21A7BF5400EEB0BA /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		51F8CFD021A7BF7400EEB0BA /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		51F8CFD221A7BF8C00EEB0BA /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		51F8CFD421A7BFAA00EEB0BA /* DetilKomikUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetilKomikUser.swift; sourceTree = "<group>"; };
+		51F8CFD821A7C01100EEB0BA /* ListKomikUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListKomikUser.swift; sourceTree = "<group>"; };
+		51F8CFDC21A7ECD600EEB0BA /* ListKomikAdmin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListKomikAdmin.swift; sourceTree = "<group>"; };
+		598A45BC21A277D600F8F5F1 /* TugasBesar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TugasBesar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		598A45BF21A277D600F8F5F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		598A45C121A277D600F8F5F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		598A45C421A277D600F8F5F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		598A45C621A277D900F8F5F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		598A45C921A277D900F8F5F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		598A45CB21A277D900F8F5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		969513908B431F302FB09087 /* Pods-TugasBesar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TugasBesar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TugasBesar/Pods-TugasBesar.debug.xcconfig"; sourceTree = "<group>"; };
+		A4A6249337814E0FECA350B2 /* Pods-TugasBesar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TugasBesar.release.xcconfig"; path = "Pods/Target Support Files/Pods-TugasBesar/Pods-TugasBesar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		598A45B921A277D600F8F5F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0535068530831E3D39DAB3 /* Pods_TugasBesar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EA5E1F1BE05464A414472C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15D90779A7B6B9D40B3A661C /* Pods_TugasBesar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		598A45B321A277D600F8F5F1 = {
+			isa = PBXGroup;
+			children = (
+				598A45BE21A277D600F8F5F1 /* TugasBesar */,
+				598A45BD21A277D600F8F5F1 /* Products */,
+				FD70443156B7FFC00F21C307 /* Pods */,
+				2EA5E1F1BE05464A414472C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		598A45BD21A277D600F8F5F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				598A45BC21A277D600F8F5F1 /* TugasBesar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		598A45BE21A277D600F8F5F1 /* TugasBesar */ = {
+			isa = PBXGroup;
+			children = (
+				598A45BF21A277D600F8F5F1 /* AppDelegate.swift */,
+				598A45C121A277D600F8F5F1 /* ViewController.swift */,
+				598A45C321A277D600F8F5F1 /* Main.storyboard */,
+				598A45C621A277D900F8F5F1 /* Assets.xcassets */,
+				598A45C821A277D900F8F5F1 /* LaunchScreen.storyboard */,
+				598A45CB21A277D900F8F5F1 /* Info.plist */,
+				51F8CFC121A7BCBB00EEB0BA /* TambahKomik.swift */,
+				51F8CFC521A7BD2600EEB0BA /* EditKomik.swift */,
+				51F8CFCA21A7BF1500EEB0BA /* DetilKomikAdmin.swift */,
+				51F8CFCC21A7BF3900EEB0BA /* Login.swift */,
+				51F8CFCE21A7BF5400EEB0BA /* Register.swift */,
+				51F8CFD021A7BF7400EEB0BA /* Profile.swift */,
+				51F8CFD221A7BF8C00EEB0BA /* EditProfile.swift */,
+				51F8CFD421A7BFAA00EEB0BA /* DetilKomikUser.swift */,
+				51F8CFD821A7C01100EEB0BA /* ListKomikUser.swift */,
+				51F8CFDC21A7ECD600EEB0BA /* ListKomikAdmin.swift */,
+			);
+			path = TugasBesar;
+			sourceTree = "<group>";
+		};
+		FD70443156B7FFC00F21C307 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				969513908B431F302FB09087 /* Pods-TugasBesar.debug.xcconfig */,
+				A4A6249337814E0FECA350B2 /* Pods-TugasBesar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		598A45BB21A277D600F8F5F1 /* TugasBesar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598A45CE21A277D900F8F5F1 /* Build configuration list for PBXNativeTarget "TugasBesar" */;
+			buildPhases = (
+				73BC4B350E4441FE2BE06E75 /* [CP] Check Pods Manifest.lock */,
+				598A45B821A277D600F8F5F1 /* Sources */,
+				598A45B921A277D600F8F5F1 /* Frameworks */,
+				598A45BA21A277D600F8F5F1 /* Resources */,
+				761B076640E1FEB9D5B34704 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TugasBesar;
+			productName = TugasBesar;
+			productReference = 598A45BC21A277D600F8F5F1 /* TugasBesar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		598A45B421A277D600F8F5F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lab_pk_25;
+				TargetAttributes = {
+					598A45BB21A277D600F8F5F1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 598A45B721A277D600F8F5F1 /* Build configuration list for PBXProject "TugasBesar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 598A45B321A277D600F8F5F1;
+			productRefGroup = 598A45BD21A277D600F8F5F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				598A45BB21A277D600F8F5F1 /* TugasBesar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		598A45BA21A277D600F8F5F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598A45CA21A277D900F8F5F1 /* LaunchScreen.storyboard in Resources */,
+				598A45C721A277D900F8F5F1 /* Assets.xcassets in Resources */,
+				598A45C521A277D600F8F5F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73BC4B350E4441FE2BE06E75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TugasBesar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		761B076640E1FEB9D5B34704 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TugasBesar/Pods-TugasBesar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TugasBesar/Pods-TugasBesar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		598A45B821A277D600F8F5F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F8CFD921A7C01100EEB0BA /* ListKomikUser.swift in Sources */,
+				51F8CFC621A7BD2600EEB0BA /* EditKomik.swift in Sources */,
+				51F8CFD521A7BFAA00EEB0BA /* DetilKomikUser.swift in Sources */,
+				51F8CFDD21A7ECD600EEB0BA /* ListKomikAdmin.swift in Sources */,
+				51F8CFD121A7BF7400EEB0BA /* Profile.swift in Sources */,
+				51F8CFC221A7BCBB00EEB0BA /* TambahKomik.swift in Sources */,
+				598A45C221A277D600F8F5F1 /* ViewController.swift in Sources */,
+				51F8CFCD21A7BF3900EEB0BA /* Login.swift in Sources */,
+				51F8CFCF21A7BF5400EEB0BA /* Register.swift in Sources */,
+				598A45C021A277D600F8F5F1 /* AppDelegate.swift in Sources */,
+				51F8CFCB21A7BF1500EEB0BA /* DetilKomikAdmin.swift in Sources */,
+				51F8CFD321A7BF8C00EEB0BA /* EditProfile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		598A45C321A277D600F8F5F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				598A45C421A277D600F8F5F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		598A45C821A277D900F8F5F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				598A45C921A277D900F8F5F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		598A45CC21A277D900F8F5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		598A45CD21A277D900F8F5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		598A45CF21A277D900F8F5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 969513908B431F302FB09087 /* Pods-TugasBesar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TugasBesar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tugasbesar.TugasBesar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		598A45D021A277D900F8F5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A6249337814E0FECA350B2 /* Pods-TugasBesar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TugasBesar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tugasbesar.TugasBesar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		598A45B721A277D600F8F5F1 /* Build configuration list for PBXProject "TugasBesar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598A45CC21A277D900F8F5F1 /* Debug */,
+				598A45CD21A277D900F8F5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598A45CE21A277D900F8F5F1 /* Build configuration list for PBXNativeTarget "TugasBesar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598A45CF21A277D900F8F5F1 /* Debug */,
+				598A45D021A277D900F8F5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 598A45B421A277D600F8F5F1 /* Project object */;
+}
